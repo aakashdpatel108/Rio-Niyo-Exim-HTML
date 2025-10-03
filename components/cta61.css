@@ -1,0 +1,134 @@
+.cta61-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cta61-max-width {
+  gap: 80px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 100;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.cta61-column {
+  gap: 24px;
+  width: 768px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.cta61-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  padding: var(--dl-layout-space-unit);
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cta61-container2 {
+  gap: var(--dl-layout-space-unit);
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cta61-row {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+}
+ 
+.cta61-container3 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-self: center;
+}
+ 
+.cta61-background-image {
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+ 
+.cta61-fragment1 {
+  display: contents;
+}
+ 
+.cta61-text5 {
+  display: inline-block;
+}
+ 
+.cta61-fragment2 {
+  display: contents;
+}
+ 
+.cta61-text6 {
+  display: inline-block;
+}
+ 
+.cta61-fragment3 {
+  display: contents;
+}
+ 
+.cta61-text7 {
+  display: inline-block;
+}
+ 
+.cta61-fragment4 {
+  display: contents;
+}
+ 
+.cta61-text8 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .cta61-column {
+    width: auto;
+  }
+  .cta61-container2 {
+    width: auto;
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+  .cta61-row {
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .cta61-container3 {
+    align-self: flex-end;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .cta61-row {
+    justify-content: center;
+  }
+  .cta61-container3 {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,129 @@
+.hero9-header30 {
+  gap: var(--dl-layout-space-twounits);
+}
+ 
+.hero9-image {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+ 
+.hero9-max-width {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.hero9-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.hero9-text1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter";
+  letter-spacing: 10px;
+}
+ 
+.hero9-text2 {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 6px;
+}
+ 
+.hero9-fragment1 {
+  display: contents;
+}
+ 
+.hero9-text3 {
+  display: inline-block;
+  font-family: "Inter";
+}
+ 
+.hero9-fragment2 {
+  display: contents;
+}
+ 
+.hero9-text4 {
+  display: inline-block;
+  font-family: "Inter";
+}
+ 
+.hero9root-class-name {
+  height: auto;
+  min-height: auto;
+  padding-bottom: var(--dl-layout-space-sixunits);
+}
+ 
+@media(max-width: 1600px) {
+  .hero9-image {
+    height: 100%;
+  }
+  .hero9root-class-name {
+    fill: var(--dl-color-theme-neutral-dark);
+    color: var(--dl-color-theme-neutral-dark);
+    opacity: 1;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .hero9-text1 {
+    letter-spacing: 8px;
+  }
+  .hero9-text4 {
+    font-family: Inter;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .hero9-text1 {
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 6px;
+  }
+  .hero9-text2 {
+    font-size: 28px;
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .hero9-text1 {
+    font-size: 35px;
+    letter-spacing: 4px;
+  }
+  .hero9-text2 {
+    font-size: 25px;
+    letter-spacing: 4px;
+  }
+  .hero9-text3 {
+    font-family: Inter;
+    letter-spacing: 6px;
+  }
+}
+ 
+@media(max-width: 414px) {
+  .hero9-text1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .hero9-text2 {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+  .hero9-text3 {
+    font-family: Inter;
+    letter-spacing: 2px;
+  }
+}

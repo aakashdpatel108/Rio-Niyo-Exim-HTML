@@ -1,0 +1,130 @@
+.cta11-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cta11-max-width {
+  gap: 80px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  max-width: var(--dl-layout-size-maxwidth);
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.cta11-container2 {
+  gap: var(--dl-layout-space-fiveunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.cta11-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cta11-container3 {
+  gap: var(--dl-layout-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.cta11-row {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+ 
+.cta11-container4 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: center;
+}
+ 
+.cta11-fragment1 {
+  display: contents;
+}
+ 
+.cta11-text5 {
+  display: inline-block;
+}
+ 
+.cta11-fragment2 {
+  display: contents;
+}
+ 
+.cta11-text6 {
+  display: inline-block;
+}
+ 
+.cta11-fragment3 {
+  display: contents;
+}
+ 
+.cta11-text7 {
+  display: inline-block;
+}
+ 
+.cta11-fragment4 {
+  display: contents;
+}
+ 
+.cta11-text8 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .cta11-max-width {
+    background-color: transparent;
+  }
+  .cta11-container2 {
+    gap: var(--dl-layout-space-twounits);
+    flex-direction: column;
+  }
+  .cta11-container3 {
+    width: auto;
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+  .cta11-row {
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .cta11-container4 {
+    align-self: flex-end;
+    justify-content: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .cta11-container2 {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .cta11-row {
+    justify-content: center;
+  }
+  .cta11-container4 {
+    width: 100%;
+    flex-direction: column;
+  }
+}

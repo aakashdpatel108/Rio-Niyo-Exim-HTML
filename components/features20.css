@@ -1,0 +1,126 @@
+.features20-layout349 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.features20-max-width {
+  gap: var(--dl-layout-space-fiveunits);
+  display: flex;
+  align-items: center;
+}
+ 
+.features20-content1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.features20-section-title {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.features20-content2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.features20-actions {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+}
+ 
+.features20-button1 {
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  padding-right: var(--dl-layout-space-oneandhalfunits);
+  padding-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.features20-button2 {
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  padding-right: var(--dl-layout-space-oneandhalfunits);
+  padding-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.features20-image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+ 
+.features20-placeholder-image {
+  border-radius: var(--dl-layout-radius-radius4);
+}
+ 
+.features20-fragment1 {
+  display: contents;
+}
+ 
+.features20-text4 {
+  display: inline-block;
+}
+ 
+.features20-fragment2 {
+  display: contents;
+}
+ 
+.features20-text5 {
+  display: inline-block;
+}
+ 
+.features20-fragment3 {
+  display: contents;
+}
+ 
+.features20-text6 {
+  display: inline-block;
+}
+ 
+.features20-fragment4 {
+  display: contents;
+}
+ 
+.features20-text7 {
+  display: inline-block;
+}
+ 
+.features20-fragment5 {
+  display: contents;
+}
+ 
+.features20-text8 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .features20-max-width {
+    gap: var(--dl-layout-space-twounits);
+    flex-direction: column-reverse;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .features20-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .features20-button1 {
+    width: 100%;
+  }
+  .features20-button2 {
+    width: 100%;
+  }
+}

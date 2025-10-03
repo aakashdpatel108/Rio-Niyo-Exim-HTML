@@ -1,0 +1,262 @@
+.pricing15-pricing3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.pricing15-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing15-section-title {
+  gap: var(--dl-layout-space-unit);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.pricing15-text10 {
+  text-align: center;
+}
+ 
+.pricing15-content1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing15-text11 {
+  text-align: center;
+}
+ 
+.pricing15-text12 {
+  text-align: center;
+}
+ 
+.pricing15-content2 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  max-width: 560px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: column;
+}
+ 
+.pricing15-icon10 {
+  width: var(--dl-layout-size-small);
+  height: var(--dl-layout-size-small);
+  align-self: flex-end;
+}
+ 
+.pricing15-price-title {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.pricing15-text13 {
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.pricing15-list {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.pricing15-list-item1 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.pricing15-list-item2 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.pricing15-list-item3 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.pricing15-list-item4 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.pricing15-list-item5 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.pricing15-price {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing15-text20 {
+  font-size: 48px;
+}
+ 
+.pricing15-button {
+  width: 100%;
+}
+ 
+.pricing15-fragment10 {
+  display: contents;
+}
+ 
+.pricing15-text23 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment11 {
+  display: contents;
+}
+ 
+.pricing15-text24 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment12 {
+  display: contents;
+}
+ 
+.pricing15-text25 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment13 {
+  display: contents;
+}
+ 
+.pricing15-text26 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment14 {
+  display: contents;
+}
+ 
+.pricing15-text27 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment15 {
+  display: contents;
+}
+ 
+.pricing15-text28 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment16 {
+  display: contents;
+}
+ 
+.pricing15-text29 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment17 {
+  display: contents;
+}
+ 
+.pricing15-text30 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment18 {
+  display: contents;
+}
+ 
+.pricing15-text31 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment19 {
+  display: contents;
+}
+ 
+.pricing15-text32 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment20 {
+  display: contents;
+}
+ 
+.pricing15-text33 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment21 {
+  display: contents;
+}
+ 
+.pricing15-text34 {
+  display: inline-block;
+}
+ 
+.pricing15-fragment22 {
+  display: contents;
+}
+ 
+.pricing15-text35 {
+  display: inline-block;
+}
+ 
+@media(max-width: 767px) {
+  .pricing15-content2 {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .pricing15-max-width {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+}

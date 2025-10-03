@@ -1,0 +1,44 @@
+.certificate-pop-up-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.certificate-pop-up-popup {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  z-index: 100;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00000050;
+}
+ 
+.certificate-pop-up-image {
+  width: 506px;
+  height: 648px;
+  object-fit: cover;
+}
+ 
+.certificate-pop-up-fragment {
+  display: contents;
+}
+ 
+.certificate-pop-up-text2 {
+  display: inline-block;
+}
+ 
+@media(max-width: 1200px) {
+  .certificate-pop-up-popup {
+    top: 0px;
+    left: 0px;
+    width: 100vh;
+    height: 100vh;
+    position: absolute;
+    background-color: #00000050;
+  }
+}

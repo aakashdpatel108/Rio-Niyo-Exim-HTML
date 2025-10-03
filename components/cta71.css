@@ -1,0 +1,90 @@
+.cta71-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cta71-max-width {
+  gap: 80px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 100;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.cta71-column {
+  gap: 24px;
+  width: 768px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.cta71-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cta71-actions {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.cta71-background-image {
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+ 
+.cta71-fragment1 {
+  display: contents;
+}
+ 
+.cta71-text5 {
+  display: inline-block;
+}
+ 
+.cta71-fragment2 {
+  display: contents;
+}
+ 
+.cta71-text6 {
+  display: inline-block;
+}
+ 
+.cta71-fragment3 {
+  display: contents;
+}
+ 
+.cta71-text7 {
+  display: inline-block;
+}
+ 
+.cta71-fragment4 {
+  display: contents;
+}
+ 
+.cta71-text8 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .cta71-column {
+    width: auto;
+  }
+}

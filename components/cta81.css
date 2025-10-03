@@ -1,0 +1,61 @@
+.cta81-container2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.cta81-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cta81-actions {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.cta81-fragment1 {
+  display: contents;
+}
+ 
+.cta81-text5 {
+  display: inline-block;
+}
+ 
+.cta81-fragment2 {
+  display: contents;
+}
+ 
+.cta81-text6 {
+  display: inline-block;
+}
+ 
+.cta81-fragment3 {
+  display: contents;
+}
+ 
+.cta81-text7 {
+  display: inline-block;
+}
+ 
+.cta81-fragment4 {
+  display: contents;
+}
+ 
+.cta81-text8 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .cta81-container2 {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
