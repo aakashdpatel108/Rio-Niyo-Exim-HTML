@@ -503,6 +503,24 @@
   background-color: #d4d4d4;
 }
  
+.footer13root-class-name7 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #040404;
+  background-color: #d4d4d4;
+}
+ 
+.footer13root-class-name8 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #040404;
+  background-color: #d4d4d4;
+}
+ 
+.footer13root-class-name9 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #040404;
+  background-color: #d4d4d4;
+}
+ 
 @media(max-width: 991px) {
   .footer13-column1 {
     max-width: 100%;

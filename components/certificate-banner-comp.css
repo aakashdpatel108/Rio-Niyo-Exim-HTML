@@ -1,27 +1,13 @@
-.cta121-container1 {
+.certificate-banner-comp-background-image {
+  left: 0px;
   width: 100%;
-  height: auto;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-direction: column;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
 }
  
-.cta121-max-width {
-  gap: 80px;
-  width: 100%;
-  height: auto;
-  display: flex;
-  z-index: 100;
-  overflow: hidden;
-  max-width: var(--dl-layout-size-maxwidth);
-  align-self: center;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
- 
-.cta121-container2 {
+.certificate-banner-comp-container {
   gap: var(--dl-layout-space-fiveunits);
   display: flex;
   overflow: visible;
@@ -30,12 +16,12 @@
   flex-shrink: 0;
 }
  
-.cta121-text1 {
+.certificate-banner-comp-text1 {
   color: #ffffff;
   font-family: "Inter";
 }
  
-.cta121-content {
+.certificate-banner-comp-content {
   gap: 24px;
   width: 616px;
   display: flex;
@@ -45,73 +31,74 @@
   flex-direction: column;
 }
  
-.cta121-text2 {
+.certificate-banner-comp-text2 {
   color: #ffffff;
   font-family: "Inter";
 }
  
-.cta121-actions {
+.certificate-banner-comp-actions {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
 }
  
-.cta121-background-image {
-  left: 0px;
-  width: 100%;
-  bottom: 0px;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-}
- 
-.cta121-fragment1 {
+.certificate-banner-comp-fragment1 {
   display: contents;
 }
  
-.cta121-text5 {
+.certificate-banner-comp-text5 {
   display: inline-block;
 }
  
-.cta121-fragment2 {
+.certificate-banner-comp-fragment2 {
   display: contents;
 }
  
-.cta121-text6 {
+.certificate-banner-comp-text6 {
   display: inline-block;
 }
  
-.cta121-fragment3 {
+.certificate-banner-comp-fragment3 {
   display: contents;
 }
  
-.cta121-text7 {
+.certificate-banner-comp-text7 {
   display: inline-block;
 }
  
-.cta121-fragment4 {
+.certificate-banner-comp-fragment4 {
   display: contents;
 }
  
-.cta121-text8 {
+.certificate-banner-comp-text8 {
   display: inline-block;
+}
+ 
+.certificate-banner-comproot-class-name {
+  height: auto;
+  min-height: auto;
+}
+ 
+.certificate-banner-comproot-class-name1 {
+  height: auto;
+  min-height: auto;
 }
  
 @media(max-width: 991px) {
-  .cta121-container2 {
+  .certificate-banner-comp-container {
     gap: var(--dl-layout-space-twounits);
     flex-direction: column;
   }
 }
  
 @media(max-width: 767px) {
-  .cta121-content {
+  .certificate-banner-comp-content {
     width: auto;
   }
 }
  
 @media(max-width: 479px) {
-  .cta121-container2 {
+  .certificate-banner-comp-container {
     gap: var(--dl-layout-space-oneandhalfunits);
   }
 }

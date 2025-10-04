@@ -1,0 +1,110 @@
+.vegetables-banner-comp-background-image {
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+ 
+.vegetables-banner-comp-container {
+  display: flex;
+  overflow: visible;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.vegetables-banner-comp-text1 {
+  color: #ffffff;
+  font-family: "Taviraj";
+}
+ 
+.vegetables-banner-comp-content {
+  gap: 24px;
+  width: 616px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.vegetables-banner-comp-text2 {
+  color: #ffffff;
+  font-family: "Open Sans";
+}
+ 
+.vegetables-banner-comp-actions {
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.vegetables-banner-comp-text3 {
+  font-family: "Open Sans";
+}
+ 
+.vegetables-banner-comp-text4 {
+  font-family: "Open Sans";
+}
+ 
+.vegetables-banner-comp-fragment1 {
+  display: contents;
+}
+ 
+.vegetables-banner-comp-text5 {
+  display: inline-block;
+}
+ 
+.vegetables-banner-comp-fragment2 {
+  display: contents;
+}
+ 
+.vegetables-banner-comp-text6 {
+  display: inline-block;
+}
+ 
+.vegetables-banner-comp-fragment3 {
+  display: contents;
+}
+ 
+.vegetables-banner-comp-text7 {
+  display: inline-block;
+}
+ 
+.vegetables-banner-comp-fragment4 {
+  display: contents;
+}
+ 
+.vegetables-banner-comp-text8 {
+  display: inline-block;
+}
+ 
+.vegetables-banner-comproot-class-name {
+  height: auto;
+  min-height: auto;
+}
+ 
+.vegetables-banner-comproot-class-name1 {
+  height: auto;
+  min-height: auto;
+}
+ 
+.vegetables-banner-comproot-class-name2 {
+  height: auto;
+  min-height: auto;
+}
+ 
+@media(max-width: 991px) {
+  .vegetables-banner-comp-container {
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .vegetables-banner-comp-content {
+    width: auto;
+  }
+}
+ 
+
