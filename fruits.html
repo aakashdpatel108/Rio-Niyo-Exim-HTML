@@ -67,15 +67,6 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
-    <style>
-      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
-          display: flex;
-        }
-
-        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
-          transform: rotate(90deg);
-        }
-    </style>
   </head>
   <body>
     <link rel="stylesheet" href="./style.css" />
@@ -83,242 +74,228 @@
       <link href="./fruits.css" rel="stylesheet" />
 
       <div class="fruits-container">
-        <main-navbar-wrapper class="main-navbar-wrapper">
-          <!--MainNavbar component-->
-          <header class="main-navbar-container1">
-            <header
-              data-thq="thq-navbar"
-              class="main-navbar-navbar-interactive"
-            >
+        <nav-wrapper class="nav-wrapper" rootclassname="navundefined">
+          <!--Nav component-->
+          <header class="nav-container1 navroot-class-name4">
+            <header data-thq="thq-navbar" class="nav-navbar-interactive">
               <img
-                alt="logo"
                 src="public/rioniyoexim.svg"
-                class="main-navbar-image1"
+                alt="RioNiyo EXIM Logo"
+                class="nav-image1"
               />
-              <div data-thq="thq-navbar-nav" class="main-navbar-desktop-menu">
-                <nav class="main-navbar-links1">
-                  <span class="thq-body-small thq-link">Home</span>
-                  <a href="/about-us.html" class="thq-body-small thq-link">
+              <div data-thq="thq-navbar-nav" class="nav-desktop-menu">
+                <nav class="nav-links1">
+                  <a
+                    href="index.html"
+                    class="nav-link11 thq-link thq-body-small"
+                  >
+                    Home
+                  </a>
+                  <a
+                    href="about-us.html"
+                    class="nav-link21 thq-link thq-body-small"
+                  >
                     About Us
                   </a>
-                  <div class="main-navbar-container2">
-                    <div class="main-navbar-link4-dropdown-trigger">
-                      <span class="thq-body-small thq-link">Products</span>
-                      <div class="main-navbar-icon-container1">
-                        <div class="main-navbar-container3">
-                          <svg
-                            viewBox="0 0 1024 1024"
-                            class="main-navbar-icon10"
-                          >
+                  <a
+                    href="certificates.html"
+                    class="nav-link31 thq-link thq-body-small"
+                  >
+                    Certificates
+                  </a>
+                  <a
+                    href="contact-us.html"
+                    class="nav-link32 thq-link thq-body-small"
+                  >
+                    Contact Us
+                  </a>
+                  <div class="nav-container2">
+                    <div class="nav-link4-dropdown-trigger">
+                      <span class="thq-link thq-body-small">Products</span>
+                      <div class="nav-icon-container1">
+                        <div class="nav-container3">
+                          <svg viewBox="0 0 1024 1024" class="nav-icon10">
                             <path d="M298 426h428l-214 214z"></path>
                           </svg>
                         </div>
-                        <div class="main-navbar-container4">
-                          <svg
-                            viewBox="0 0 1024 1024"
-                            class="main-navbar-icon12"
-                          >
+                        <div class="nav-container4">
+                          <svg viewBox="0 0 1024 1024" class="nav-icon12">
                             <path d="M426 726v-428l214 214z"></path>
                           </svg>
                         </div>
                       </div>
                     </div>
-                    <div class="main-navbar-container5 thq-box-shadow">
-                      <div class="main-navbar-menu-item1">
-                        <div class="main-navbar-content1">
+                    <div class="nav-container5 thq-box-shadow">
+                      <div class="nav-menu-item1">
+                        <div class="nav-content1">
                           <a
                             href="https://www.teleporthq.io"
-                            class="main-navbar-page11 thq-body-large"
-                          >
-                            <fragment class="fruits-fragment11">
-                              <span class="fruits-text11">Page One</span>
-                            </fragment>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="main-navbar-menu-item2">
-                        <div class="main-navbar-content2">
-                          <a
-                            href="https://www.teleporthq.io"
-                            class="main-navbar-page21 thq-body-large"
-                          >
-                            <fragment class="fruits-fragment12">
-                              <span class="fruits-text12">Page Two</span>
-                            </fragment>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="main-navbar-menu-item3">
-                        <div class="main-navbar-content3">
-                          <a
-                            href="https://www.teleporthq.io"
-                            class="main-navbar-page31 thq-body-large"
+                            class="nav-page11 thq-body-large"
                           >
                             <fragment class="fruits-fragment13">
-                              <span class="fruits-text13">Page Three</span>
+                              <span class="fruits-text13">Page One</span>
                             </fragment>
                           </a>
                         </div>
                       </div>
-                      <div class="main-navbar-menu-item4">
-                        <div class="main-navbar-content4">
+                      <div class="nav-menu-item2">
+                        <div class="nav-content2">
                           <a
                             href="https://www.teleporthq.io"
-                            class="main-navbar-page41 thq-body-large"
+                            class="nav-page21 thq-body-large"
                           >
-                            <fragment class="fruits-fragment14">
-                              <span class="fruits-text14">Page Four</span>
+                            <fragment class="fruits-fragment10">
+                              <span class="fruits-text10">Page Two</span>
+                            </fragment>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="nav-menu-item3">
+                        <div class="nav-content3">
+                          <a
+                            href="https://www.teleporthq.io"
+                            class="nav-page31 thq-body-large"
+                          >
+                            <fragment class="fruits-fragment12">
+                              <span class="fruits-text12">Page Three</span>
+                            </fragment>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="nav-menu-item4">
+                        <div class="nav-content4">
+                          <a
+                            href="https://www.teleporthq.io"
+                            class="nav-page41 thq-body-large"
+                          >
+                            <fragment class="fruits-fragment11">
+                              <span class="fruits-text11">Page Four</span>
                             </fragment>
                           </a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <a
-                    href="certificates.html"
-                    class="main-navbar-link31 thq-body-small thq-link"
-                  >
-                    Certificates
-                  </a>
-                  <a
-                    href="contact-us.html"
-                    class="main-navbar-link32 thq-body-small thq-link"
-                  >
-                    Contact Us
-                  </a>
                 </nav>
               </div>
-              <div data-thq="thq-burger-menu" class="main-navbar-burger-menu">
-                <svg viewBox="0 0 1024 1024" class="main-navbar-icon14">
+              <div data-thq="thq-burger-menu" class="nav-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="nav-icon14">
                   <path
                     d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
                   ></path>
                 </svg>
               </div>
-              <div data-thq="thq-mobile-menu" class="main-navbar-mobile-menu">
-                <div class="main-navbar-nav">
-                  <div class="main-navbar-top">
+              <div data-thq="thq-mobile-menu" class="nav-mobile-menu">
+                <div class="nav-nav">
+                  <div class="nav-top">
                     <img
-                      alt="logo"
                       src="public/rioniyoexim.svg"
-                      class="main-navbar-logo"
+                      alt="RioNiyo EXIM Logo"
+                      class="nav-logo"
                     />
-                    <div
-                      data-thq="thq-close-menu"
-                      class="main-navbar-close-menu"
-                    >
-                      <svg viewBox="0 0 1024 1024" class="main-navbar-icon16">
+                    <div data-thq="thq-close-menu" class="nav-close-menu">
+                      <svg viewBox="0 0 1024 1024" class="nav-icon16">
                         <path
                           d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                         ></path>
                       </svg>
                     </div>
                   </div>
-                  <nav class="main-navbar-links2">
+                  <nav class="nav-links2">
                     <a
                       href="index.html"
-                      class="main-navbar-link12 thq-body-small thq-link"
+                      class="nav-link12 thq-link thq-body-small"
                     >
                       Home
                     </a>
                     <a
                       href="about-us.html"
-                      class="main-navbar-link22 thq-body-small thq-link"
+                      class="nav-link22 thq-link thq-body-small"
                     >
                       About Us
                     </a>
-                    <div class="main-navbar-link4-accordion">
-                      <div class="main-navbar-trigger">
-                        <span class="thq-body-small thq-link">
-                          <fragment class="fruits-fragment10">
-                            <span class="fruits-text10">Products</span>
-                          </fragment>
-                        </span>
-                        <div class="main-navbar-icon-container2">
-                          <div class="main-navbar-container6">
-                            <svg
-                              viewBox="0 0 1024 1024"
-                              class="main-navbar-icon18"
-                            >
+                    <a
+                      href="certificates.html"
+                      class="nav-link33 thq-link thq-body-small"
+                    >
+                      Certificates
+                    </a>
+                    <a
+                      href="contact-us.html"
+                      class="nav-link34 thq-link thq-body-small"
+                    >
+                      Contact Us
+                    </a>
+                    <div class="nav-link4-accordion">
+                      <div class="nav-trigger">
+                        <span class="thq-link thq-body-small">Products</span>
+                        <div class="nav-icon-container2">
+                          <div class="nav-container6">
+                            <svg viewBox="0 0 1024 1024" class="nav-icon18">
                               <path d="M298 426h428l-214 214z"></path>
                             </svg>
                           </div>
-                          <div class="main-navbar-container7">
-                            <svg
-                              viewBox="0 0 1024 1024"
-                              class="main-navbar-icon20"
-                            >
+                          <div class="nav-container7">
+                            <svg viewBox="0 0 1024 1024" class="nav-icon20">
                               <path d="M426 726v-428l214 214z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div class="main-navbar-container8">
-                        <div class="main-navbar-menu-item5">
-                          <div class="main-navbar-content5">
+                      <div class="nav-container8">
+                        <div class="nav-menu-item5">
+                          <div class="nav-content5">
                             <a
                               href="https://www.teleporthq.io"
-                              class="main-navbar-page12 thq-body-large"
-                            >
-                              <fragment class="fruits-fragment11">
-                                <span class="fruits-text11">Page One</span>
-                              </fragment>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="main-navbar-menu-item6">
-                          <div class="main-navbar-content6">
-                            <a
-                              href="https://www.teleporthq.io"
-                              class="main-navbar-page22 thq-body-large"
-                            >
-                              <fragment class="fruits-fragment12">
-                                <span class="fruits-text12">Page Two</span>
-                              </fragment>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="main-navbar-menu-item7">
-                          <div class="main-navbar-content7">
-                            <a
-                              href="https://www.teleporthq.io"
-                              class="main-navbar-page32 thq-body-large"
+                              class="nav-page12 thq-body-large"
                             >
                               <fragment class="fruits-fragment13">
-                                <span class="fruits-text13">Page Three</span>
+                                <span class="fruits-text13">Page One</span>
                               </fragment>
                             </a>
                           </div>
                         </div>
-                        <div class="main-navbar-menu-item8">
-                          <div class="main-navbar-content8">
+                        <div class="nav-menu-item6">
+                          <div class="nav-content6">
                             <a
                               href="https://www.teleporthq.io"
-                              class="main-navbar-page42 thq-body-large"
+                              class="nav-page22 thq-body-large"
                             >
-                              <fragment class="fruits-fragment14">
-                                <span class="fruits-text14">Page Four</span>
+                              <fragment class="fruits-fragment10">
+                                <span class="fruits-text10">Page Two</span>
+                              </fragment>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="nav-menu-item7">
+                          <div class="nav-content7">
+                            <a
+                              href="https://www.teleporthq.io"
+                              class="nav-page32 thq-body-large"
+                            >
+                              <fragment class="fruits-fragment12">
+                                <span class="fruits-text12">Page Three</span>
+                              </fragment>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="nav-menu-item8">
+                          <div class="nav-content8">
+                            <a
+                              href="https://www.teleporthq.io"
+                              class="nav-page42 thq-body-large"
+                            >
+                              <fragment class="fruits-fragment11">
+                                <span class="fruits-text11">Page Four</span>
                               </fragment>
                             </a>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <a
-                      href="certificates.html"
-                      class="main-navbar-link33 thq-body-small thq-link"
-                    >
-                      Certificates
-                    </a>
-                    <a
-                      href="contact-us.html"
-                      class="main-navbar-link34 thq-body-small thq-link"
-                    >
-                      Contact Us
-                    </a>
                   </nav>
                 </div>
-                <div class="main-navbar-icon-group">
+                <div class="nav-icon-group">
                   <svg
                     viewBox="0 0 950.8571428571428 1024"
                     class="thq-icon-x-small"
@@ -328,14 +305,14 @@
                     ></path></svg
                   ><svg
                     viewBox="0 0 877.7142857142857 1024"
-                    class="main-navbar-icon24 thq-icon-x-small"
+                    class="nav-icon24 thq-icon-x-small"
                   >
                     <path
                       d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
                     ></path></svg
                   ><svg
                     viewBox="0 0 602.2582857142856 1024"
-                    class="main-navbar-icon26 thq-icon-x-small"
+                    class="nav-icon26 thq-icon-x-small"
                   >
                     <path
                       d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
@@ -344,9 +321,9 @@
                 </div>
               </div>
             </header>
-            <div class="main-navbar-container9"></div>
+            <div class="nav-container9"></div>
           </header>
-        </main-navbar-wrapper>
+        </nav-wrapper>
         <vegetables-banner-comp-wrapper
           class="vegetables-banner-comp-wrapper"
           rootclassname="vegetables-banner-compundefined"
@@ -356,14 +333,14 @@
             class="thq-section-padding vegetables-banner-comproot-class-name2"
           >
             <img
-              src="https://images.unsplash.com/photo-1476837579993-f1d3948f17c2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDkwfHxmcnVpdHN8ZW58MHx8fHwxNzU5NTAzMTcyfDA&amp;ixlib=rb-4.1.0&amp;w=1500"
               alt="Image of fresh fruits and vegetables"
+              src="https://images.unsplash.com/photo-1476837579993-f1d3948f17c2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDkwfHxmcnVpdHN8ZW58MHx8fHwxNzU5NTAzMTcyfDA&amp;ixlib=rb-4.1.0&amp;w=1500"
               class="vegetables-banner-comp-background-image thq-img-ratio-16-9"
             />
             <div class="vegetables-banner-comp-container thq-flex-row">
               <h2 class="vegetables-banner-comp-text1 thq-heading-2">
-                <fragment class="fruits-fragment15">
-                  <span class="fruits-text15">Fresh Fruits</span>
+                <fragment class="fruits-fragment17">
+                  <span class="fruits-text17">Fresh Fruits</span>
                 </fragment>
               </h2>
               <div class="vegetables-banner-comp-content">
@@ -381,15 +358,15 @@
                 <div class="vegetables-banner-comp-actions">
                   <button type="button" class="thq-button-filled">
                     <span class="vegetables-banner-comp-text3">
-                      <fragment class="fruits-fragment17">
-                        <span class="fruits-text17">Explore Our Products</span>
+                      <fragment class="fruits-fragment14">
+                        <span class="fruits-text14">Explore Our Products</span>
                       </fragment>
                     </span>
                   </button>
                   <button type="button" class="thq-button-outline">
                     <span class="vegetables-banner-comp-text4">
-                      <fragment class="fruits-fragment18">
-                        <span class="fruits-text18">Contact Us</span>
+                      <fragment class="fruits-fragment15">
+                        <span class="fruits-text15">Contact Us</span>
                       </fragment>
                     </span>
                   </button>
@@ -404,21 +381,21 @@
             <div class="fruits-feature1-max-width thq-section-max-width">
               <div class="fruits-feature1-section-title">
                 <span class="fruits-feature1-text10 thq-body-small">
-                  <fragment class="fruits-fragment19">
-                    <span class="fruits-text19">
+                  <fragment class="fruits-fragment18">
+                    <span class="fruits-text18">
                       Exporting Quality Food Products Globally
                     </span>
                   </fragment>
                 </span>
                 <div class="fruits-feature1-content1">
                   <h2 class="fruits-feature1-text11 thq-heading-2">
-                    <fragment class="fruits-fragment21">
-                      <span class="fruits-text21">Fresh Fruits</span>
+                    <fragment class="fruits-fragment20">
+                      <span class="fruits-text20">Fresh Fruits</span>
                     </fragment>
                   </h2>
                   <span class="fruits-feature1-text12 thq-body-large">
-                    <fragment class="fruits-fragment20">
-                      <span class="fruits-text20">
+                    <fragment class="fruits-fragment19">
+                      <span class="fruits-text19">
                         We ensure that our products meet high-quality standards
                         and are sourced from trusted suppliers.
                       </span>
@@ -430,19 +407,19 @@
                 <div class="fruits-feature1-row thq-flex-row">
                   <div class="fruits-feature1-feature1">
                     <img
-                      src="https://images.unsplash.com/photo-1629367308496-a2496ba22f88?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGd1YXZhfGVufDB8fHx8MTc1OTUwMjk0NHww&amp;ixlib=rb-4.1.0&amp;w=1400"
                       alt="Guava"
+                      src="https://images.unsplash.com/photo-1629367308496-a2496ba22f88?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGd1YXZhfGVufDB8fHx8MTc1OTUwMjk0NHww&amp;ixlib=rb-4.1.0&amp;w=1400"
                       class="thq-img-ratio-4-3"
                     />
                     <div class="fruits-feature1-content3">
                       <h3 class="fruits-feature1-feature1-title thq-heading-3">
-                        <fragment class="fruits-fragment22">
-                          <span class="fruits-text22">Guava</span>
+                        <fragment class="fruits-fragment21">
+                          <span class="fruits-text21">Guava</span>
                         </fragment>
                       </h3>
                       <span class="thq-body-small">
-                        <fragment class="fruits-fragment25">
-                          <span class="fruits-text25">
+                        <fragment class="fruits-fragment24">
+                          <span class="fruits-text24">
                             Guava is a tropical fruit, known for its sweet,
                             musky, and slightly acidic flavor, and its edible
                             seeds. Native to Mexico, Central America, and
@@ -457,19 +434,19 @@
                   </div>
                   <div class="fruits-feature1-feature2">
                     <img
-                      src="https://images.unsplash.com/photo-1702040242599-46809572ffce?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxwYXBheWF8ZW58MHx8fHwxNzU5NTAyOTc2fDA&amp;ixlib=rb-4.1.0&amp;w=1400"
                       alt="Papaya"
+                      src="https://images.unsplash.com/photo-1702040242599-46809572ffce?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxwYXBheWF8ZW58MHx8fHwxNzU5NTAyOTc2fDA&amp;ixlib=rb-4.1.0&amp;w=1400"
                       class="thq-img-ratio-4-3"
                     />
                     <div class="fruits-feature1-content4">
                       <h3 class="thq-heading-3">
-                        <fragment class="fruits-fragment23">
-                          <span class="fruits-text23">Papaya</span>
+                        <fragment class="fruits-fragment22">
+                          <span class="fruits-text22">Papaya</span>
                         </fragment>
                       </h3>
                       <span class="thq-body-small">
-                        <fragment class="fruits-fragment26">
-                          <span class="fruits-text26">
+                        <fragment class="fruits-fragment25">
+                          <span class="fruits-text25">
                             Papaya (\(Carica\ papaya\)) is a tropical fruit
                             known for its sweet, buttery, orange or red-fleshed
                             pulp and its distinct black, edible seeds. Though it
@@ -485,19 +462,19 @@
                   </div>
                   <div class="fruits-feature1-feature3">
                     <img
-                      src="https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGJhbmFuYXxlbnwwfHx8fDE3NTk1MDMwMDR8MA&amp;ixlib=rb-4.1.0&amp;w=1400"
                       alt="Banana"
+                      src="https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGJhbmFuYXxlbnwwfHx8fDE3NTk1MDMwMDR8MA&amp;ixlib=rb-4.1.0&amp;w=1400"
                       class="thq-img-ratio-4-3"
                     />
                     <div class="fruits-feature1-content5">
                       <h3 class="thq-heading-3">
-                        <fragment class="fruits-fragment24">
-                          <span class="fruits-text24">Banana</span>
+                        <fragment class="fruits-fragment23">
+                          <span class="fruits-text23">Banana</span>
                         </fragment>
                       </h3>
                       <span class="thq-body-small">
-                        <fragment class="fruits-fragment27">
-                          <span class="fruits-text27">
+                        <fragment class="fruits-fragment26">
+                          <span class="fruits-text26">
                             A banana is a soft, sweet, elongated, edible fruit
                             that grows in bunches on the Musa genus of treelike
                             plants. Rich in potassium, vitamin B6, and fiber,
@@ -522,8 +499,8 @@
               <div class="fruits-feature2-content1">
                 <div class="fruits-feature2-section-title">
                   <span class="thq-body-small">
-                    <fragment class="fruits-fragment28">
-                      <span class="fruits-text28">Quality Guaranteed</span>
+                    <fragment class="fruits-fragment27">
+                      <span class="fruits-text27">Quality Guaranteed</span>
                     </fragment>
                   </span>
                   <div class="fruits-feature2-content2">
@@ -540,8 +517,8 @@
               </div>
               <div class="fruits-feature2-image-container">
                 <img
-                  src="https://images.unsplash.com/photo-1519096845289-95806ee03a1a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDExfHxNYW5nb3xlbnwwfHx8fDE3NTk1OTQ4NDZ8MA&amp;ixlib=rb-4.1.0&amp;w=1400"
                   alt="Mango"
+                  src="https://images.unsplash.com/photo-1519096845289-95806ee03a1a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDExfHxNYW5nb3xlbnwwfHx8fDE3NTk1OTQ4NDZ8MA&amp;ixlib=rb-4.1.0&amp;w=1400"
                   class="thq-img-ratio-16-9"
                 />
               </div>
@@ -554,8 +531,8 @@
             <div class="fruits-feature3-max-width thq-section-max-width">
               <div class="fruits-feature3-image-container">
                 <img
-                  src="https://images.unsplash.com/photo-1705501720577-4fe7bba7f85b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI3fHxkcmFnb24lMjBmcnVpdHxlbnwwfHx8fDE3NTk1OTU1MzF8MA&amp;ixlib=rb-4.1.0&amp;w=1400"
                   alt="Dragon Fruit"
+                  src="https://images.unsplash.com/photo-1705501720577-4fe7bba7f85b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI3fHxkcmFnb24lMjBmcnVpdHxlbnwwfHx8fDE3NTk1OTU1MzF8MA&amp;ixlib=rb-4.1.0&amp;w=1400"
                   class="thq-img-ratio-16-9"
                 />
               </div>
@@ -585,21 +562,21 @@
               <div class="thq-flex-row fruits-feature4-section-title">
                 <div class="fruits-feature4-column thq-flex-column">
                   <span class="thq-body-small">
-                    <fragment class="fruits-fragment29">
-                      <span class="fruits-text29">
+                    <fragment class="fruits-fragment28">
+                      <span class="fruits-text28">
                         Excellence in Every Export
                       </span>
                     </fragment>
                   </span>
                   <h2 class="thq-heading-2 fruits-feature4-text11">
-                    <fragment class="fruits-fragment31">
-                      <span class="fruits-text31">Our Features</span>
+                    <fragment class="fruits-fragment30">
+                      <span class="fruits-text30">Our Features</span>
                     </fragment>
                   </h2>
                 </div>
                 <span class="thq-body-small">
-                  <fragment class="fruits-fragment36">
-                    <span class="fruits-text36">
+                  <fragment class="fruits-fragment35">
+                    <span class="fruits-text35">
                       Discover the key features that set RioNiyo EXIM apart in
                       the food export industry.
                     </span>
@@ -616,15 +593,15 @@
                     />
                     <div class="fruits-feature4-content2 thq-flex-column">
                       <h3 class="thq-heading-3">
-                        <fragment class="fruits-fragment32">
-                          <span class="fruits-text32">
+                        <fragment class="fruits-fragment31">
+                          <span class="fruits-text31">
                             Wide Range of Products
                           </span>
                         </fragment>
                       </h3>
                       <span class="thq-body-small">
-                        <fragment class="fruits-fragment37">
-                          <span class="fruits-text37">
+                        <fragment class="fruits-fragment36">
+                          <span class="fruits-text36">
                             We specialize in exporting a diverse range of
                             fruits, vegetables, and spices sourced from trusted
                             suppliers.
@@ -641,13 +618,13 @@
                     />
                     <div class="fruits-feature4-content3 thq-flex-column">
                       <h3 class="thq-heading-3">
-                        <fragment class="fruits-fragment33">
-                          <span class="fruits-text33">Global Reach</span>
+                        <fragment class="fruits-fragment32">
+                          <span class="fruits-text32">Global Reach</span>
                         </fragment>
                       </h3>
                       <span class="thq-body-small">
-                        <fragment class="fruits-fragment38">
-                          <span class="fruits-text38">
+                        <fragment class="fruits-fragment37">
+                          <span class="fruits-text37">
                             Our network enables us to connect buyers worldwide
                             with genuine Indian food products.
                           </span>
@@ -663,13 +640,13 @@
                     />
                     <div class="fruits-feature4-content4 thq-flex-column">
                       <h3 class="thq-heading-3">
-                        <fragment class="fruits-fragment34">
-                          <span class="fruits-text34">Quality Assurance</span>
+                        <fragment class="fruits-fragment33">
+                          <span class="fruits-text33">Quality Assurance</span>
                         </fragment>
                       </h3>
                       <span class="thq-body-small">
-                        <fragment class="fruits-fragment39">
-                          <span class="fruits-text39">
+                        <fragment class="fruits-fragment38">
+                          <span class="fruits-text38">
                             We ensure that all our exports meet stringent
                             quality standards to guarantee customer
                             satisfaction.
@@ -683,15 +660,15 @@
               <div class="fruits-feature4-actions">
                 <button class="thq-button-filled fruits-feature4-button1">
                   <span class="thq-body-small">
-                    <fragment class="fruits-fragment30">
-                      <span class="fruits-text30">High-Quality Standards</span>
+                    <fragment class="fruits-fragment29">
+                      <span class="fruits-text29">High-Quality Standards</span>
                     </fragment>
                   </span>
                 </button>
                 <button class="thq-button-outline fruits-feature4-button2">
                   <span class="thq-body-small">
-                    <fragment class="fruits-fragment35">
-                      <span class="fruits-text35">Contact Us</span>
+                    <fragment class="fruits-fragment34">
+                      <span class="fruits-text34">Contact Us</span>
                     </fragment>
                   </span>
                 </button>
@@ -699,30 +676,37 @@
             </div>
           </div>
         </fruits-feature4-wrapper>
-        <footer13-wrapper
-          class="footer13-wrapper"
-          rootclassname="footer13undefined"
-        >
-          <!--Footer13 component-->
+        <footer-wrapper class="footer-wrapper" rootclassname="footerundefined">
+          <!--Footer component-->
           <footer
-            class="footer13-container thq-section-padding footer13root-class-name6"
+            class="footer-container thq-section-padding footerroot-class-name6"
           >
-            <div class="footer13-max-width thq-section-max-width">
+            <div class="footer-max-width thq-section-max-width">
               <div class="thq-divider-horizontal"></div>
-              <div class="footer13-content">
+              <div class="footer-content">
                 <img
                   alt="logo"
                   src="public/rioniyoexim.svg"
-                  class="footer13-image1"
+                  class="footer-image1"
                 />
-                <div class="footer13-links thq-grid-5">
-                  <div class="footer13-column1">
-                    <strong class="thq-body-large footer13-column1-title">
-                      <fragment class="fruits-fragment70">
-                        <span class="fruits-text70">Column One</span>
+                <div class="footer-links thq-grid-5">
+                  <div class="footer-column1">
+                    <strong class="thq-body-large footer-column1-title">
+                      <fragment class="fruits-fragment69">
+                        <span class="fruits-text69">Column One</span>
                       </fragment>
                     </strong>
-                    <div class="footer13-footer-links1">
+                    <div class="footer-footer-links1">
+                      <a
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="thq-body-small"
+                      >
+                        <fragment class="fruits-fragment39">
+                          <span class="fruits-text39">Link 1</span>
+                        </fragment>
+                      </a>
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -730,7 +714,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment40">
-                          <span class="fruits-text40">Link 1</span>
+                          <span class="fruits-text40">Link 2</span>
                         </fragment>
                       </a>
                       <a
@@ -740,7 +724,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment41">
-                          <span class="fruits-text41">Link 2</span>
+                          <span class="fruits-text41">Link 3</span>
                         </fragment>
                       </a>
                       <a
@@ -750,7 +734,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment42">
-                          <span class="fruits-text42">Link 3</span>
+                          <span class="fruits-text42">Link 4</span>
                         </fragment>
                       </a>
                       <a
@@ -760,9 +744,18 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment43">
-                          <span class="fruits-text43">Link 4</span>
+                          <span class="fruits-text43">Link 5</span>
                         </fragment>
                       </a>
+                    </div>
+                  </div>
+                  <div class="footer-column2">
+                    <strong class="thq-body-large footer-column2-title">
+                      <fragment class="fruits-fragment70">
+                        <span class="fruits-text70">Column Two</span>
+                      </fragment>
+                    </strong>
+                    <div class="footer-footer-links2">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -770,18 +763,9 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment44">
-                          <span class="fruits-text44">Link 5</span>
+                          <span class="fruits-text44">Link 6</span>
                         </fragment>
                       </a>
-                    </div>
-                  </div>
-                  <div class="footer13-column2">
-                    <strong class="thq-body-large footer13-column2-title">
-                      <fragment class="fruits-fragment71">
-                        <span class="fruits-text71">Column Two</span>
-                      </fragment>
-                    </strong>
-                    <div class="footer13-footer-links2">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -789,7 +773,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment45">
-                          <span class="fruits-text45">Link 6</span>
+                          <span class="fruits-text45">Link 7</span>
                         </fragment>
                       </a>
                       <a
@@ -799,7 +783,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment46">
-                          <span class="fruits-text46">Link 7</span>
+                          <span class="fruits-text46">Link 8</span>
                         </fragment>
                       </a>
                       <a
@@ -809,7 +793,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment47">
-                          <span class="fruits-text47">Link 8</span>
+                          <span class="fruits-text47">Link 9</span>
                         </fragment>
                       </a>
                       <a
@@ -819,9 +803,18 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment48">
-                          <span class="fruits-text48">Link 9</span>
+                          <span class="fruits-text48">Link 10</span>
                         </fragment>
                       </a>
+                    </div>
+                  </div>
+                  <div class="footer-column3">
+                    <strong class="thq-body-large footer-column3-title">
+                      <fragment class="fruits-fragment71">
+                        <span class="fruits-text71">Column Three</span>
+                      </fragment>
+                    </strong>
+                    <div class="footer-footer-links3">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -829,18 +822,9 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment49">
-                          <span class="fruits-text49">Link 10</span>
+                          <span class="fruits-text49">Link 11</span>
                         </fragment>
                       </a>
-                    </div>
-                  </div>
-                  <div class="footer13-column3">
-                    <strong class="thq-body-large footer13-column3-title">
-                      <fragment class="fruits-fragment72">
-                        <span class="fruits-text72">Column Three</span>
-                      </fragment>
-                    </strong>
-                    <div class="footer13-footer-links3">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -848,7 +832,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment50">
-                          <span class="fruits-text50">Link 11</span>
+                          <span class="fruits-text50">Link 12</span>
                         </fragment>
                       </a>
                       <a
@@ -858,7 +842,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment51">
-                          <span class="fruits-text51">Link 12</span>
+                          <span class="fruits-text51">Link 13</span>
                         </fragment>
                       </a>
                       <a
@@ -868,7 +852,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment52">
-                          <span class="fruits-text52">Link 13</span>
+                          <span class="fruits-text52">Link 14</span>
                         </fragment>
                       </a>
                       <a
@@ -878,9 +862,18 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment53">
-                          <span class="fruits-text53">Link 14</span>
+                          <span class="fruits-text53">Link 15</span>
                         </fragment>
                       </a>
+                    </div>
+                  </div>
+                  <div class="footer-column4">
+                    <strong class="thq-body-large footer-column4-title">
+                      <fragment class="fruits-fragment72">
+                        <span class="fruits-text72">Column Four</span>
+                      </fragment>
+                    </strong>
+                    <div class="footer-footer-links4">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -888,18 +881,9 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment54">
-                          <span class="fruits-text54">Link 15</span>
+                          <span class="fruits-text54">Link 16</span>
                         </fragment>
                       </a>
-                    </div>
-                  </div>
-                  <div class="footer13-column4">
-                    <strong class="thq-body-large footer13-column4-title">
-                      <fragment class="fruits-fragment73">
-                        <span class="fruits-text73">Column Four</span>
-                      </fragment>
-                    </strong>
-                    <div class="footer13-footer-links4">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -907,7 +891,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment55">
-                          <span class="fruits-text55">Link 16</span>
+                          <span class="fruits-text55">Link 17</span>
                         </fragment>
                       </a>
                       <a
@@ -917,7 +901,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment56">
-                          <span class="fruits-text56">Link 17</span>
+                          <span class="fruits-text56">Link 18</span>
                         </fragment>
                       </a>
                       <a
@@ -927,7 +911,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment57">
-                          <span class="fruits-text57">Link 18</span>
+                          <span class="fruits-text57">Link 19</span>
                         </fragment>
                       </a>
                       <a
@@ -937,9 +921,18 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment58">
-                          <span class="fruits-text58">Link 19</span>
+                          <span class="fruits-text58">Link 20</span>
                         </fragment>
                       </a>
+                    </div>
+                  </div>
+                  <div class="footer-column5">
+                    <strong class="thq-body-large footer-column5-title">
+                      <fragment class="fruits-fragment73">
+                        <span class="fruits-text73">Column Five</span>
+                      </fragment>
+                    </strong>
+                    <div class="footer-footer-links5">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -947,18 +940,9 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment59">
-                          <span class="fruits-text59">Link 20</span>
+                          <span class="fruits-text59">Link 21</span>
                         </fragment>
                       </a>
-                    </div>
-                  </div>
-                  <div class="footer13-column5">
-                    <strong class="thq-body-large footer13-column5-title">
-                      <fragment class="fruits-fragment74">
-                        <span class="fruits-text74">Column Five</span>
-                      </fragment>
-                    </strong>
-                    <div class="footer13-footer-links5">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -966,7 +950,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment60">
-                          <span class="fruits-text60">Link 21</span>
+                          <span class="fruits-text60">Link 22</span>
                         </fragment>
                       </a>
                       <a
@@ -976,7 +960,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment61">
-                          <span class="fruits-text61">Link 22</span>
+                          <span class="fruits-text61">Link 23</span>
                         </fragment>
                       </a>
                       <a
@@ -986,7 +970,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment62">
-                          <span class="fruits-text62">Link 23</span>
+                          <span class="fruits-text62">Link 24</span>
                         </fragment>
                       </a>
                       <a
@@ -996,17 +980,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="fruits-fragment63">
-                          <span class="fruits-text63">Link 24</span>
-                        </fragment>
-                      </a>
-                      <a
-                        href="https://example.com"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        class="thq-body-small"
-                      >
-                        <fragment class="fruits-fragment64">
-                          <span class="fruits-text64">Link 25</span>
+                          <span class="fruits-text63">Link 25</span>
                         </fragment>
                       </a>
                     </div>
@@ -1014,27 +988,27 @@
                 </div>
               </div>
               <div class="thq-divider-horizontal"></div>
-              <div class="footer13-credits1">
-                <div class="footer13-row">
-                  <div class="footer13-credits2">
-                    <span class="thq-body-small">
-                      <fragment class="fruits-fragment69">
-                        <span class="fruits-text69">Privacy Policy</span>
-                      </fragment>
-                    </span>
-                    <span class="thq-body-small">
-                      <fragment class="fruits-fragment66">
-                        <span class="fruits-text66">Terms of Service</span>
-                      </fragment>
-                    </span>
+              <div class="footer-credits1">
+                <div class="footer-row">
+                  <div class="footer-credits2">
                     <span class="thq-body-small">
                       <fragment class="fruits-fragment68">
-                        <span class="fruits-text68">Cookies Settings</span>
+                        <span class="fruits-text68">Privacy Policy</span>
+                      </fragment>
+                    </span>
+                    <span class="thq-body-small">
+                      <fragment class="fruits-fragment65">
+                        <span class="fruits-text65">Terms of Service</span>
+                      </fragment>
+                    </span>
+                    <span class="thq-body-small">
+                      <fragment class="fruits-fragment67">
+                        <span class="fruits-text67">Cookies Settings</span>
                       </fragment>
                     </span>
                   </div>
                 </div>
-                <div class="footer13-social-links">
+                <div class="footer-social-links">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     class="thq-icon-small"
@@ -1069,16 +1043,16 @@
                     ></path>
                   </svg>
                 </div>
-                <span class="footer13-content31 thq-body-small">
-                  <fragment class="fruits-fragment65">
-                    <span class="fruits-text65">
+                <span class="footer-content31 thq-body-small">
+                  <fragment class="fruits-fragment64">
+                    <span class="fruits-text64">
                       © 2025 RioNiyo EXIM. All Rights Reserved
                     </span>
                   </fragment>
                 </span>
-                <span class="footer13-content32 thq-body-small">
-                  <fragment class="fruits-fragment67">
-                    <span class="fruits-text67">
+                <span class="footer-content32 thq-body-small">
+                  <fragment class="fruits-fragment66">
+                    <span class="fruits-text66">
                       Website Design by Aakash Patel
                     </span>
                   </fragment>
@@ -1086,7 +1060,7 @@
               </div>
             </div>
           </footer>
-        </footer13-wrapper>
+        </footer-wrapper>
       </div>
     </div>
     <script

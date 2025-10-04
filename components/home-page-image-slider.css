@@ -1,0 +1,236 @@
+.home-page-image-slider-header78 {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.home-page-image-slider-column {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-unit);
+}
+ 
+.home-page-image-slider-content1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.home-page-image-slider-text1 {
+  text-align: center;
+}
+ 
+.home-page-image-slider-text2 {
+  text-align: center;
+}
+ 
+.home-page-image-slider-actions {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-layout-space-unit);
+}
+ 
+.home-page-image-slider-content2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.home-page-image-slider-row-container1 {
+  width: 100%;
+}
+ 
+.home-page-image-slider-placeholder-image10 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image11 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image12 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image13 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image14 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image15 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image16 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image17 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image18 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image19 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image20 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image21 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-row-container2 {
+  width: 100%;
+}
+ 
+.home-page-image-slider-placeholder-image22 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image23 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image24 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image25 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image26 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image27 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image28 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image29 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image30 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image31 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image32 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-placeholder-image33 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.home-page-image-slider-container2 {
+  display: contents;
+}
+ 
+.home-page-image-slider-fragment1 {
+  display: contents;
+}
+ 
+.home-page-image-slider-text4 {
+  display: inline-block;
+}
+ 
+.home-page-image-slider-fragment2 {
+  display: contents;
+}
+ 
+.home-page-image-slider-text5 {
+  display: inline-block;
+}
+ 
+.home-page-image-slider-fragment3 {
+  display: contents;
+}
+ 
+.home-page-image-slider-text6 {
+  display: inline-block;
+}
+ 
+@media(max-width: 767px) {
+  .home-page-image-slider-content2 {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .home-page-image-slider-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .home-page-image-slider-button {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 414px) {
+  .home-page-image-slider-text1 {
+    font-size: 20px;
+  }
+  .home-page-image-slider-text2 {
+    font-size: 15px;
+  }
+  .home-page-image-slider-text3 {
+    font-size: 15px;
+  }
+}

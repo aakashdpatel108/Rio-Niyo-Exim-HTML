@@ -67,15 +67,6 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
-    <style>
-      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
-          display: flex;
-        }
-
-        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
-          transform: rotate(90deg);
-        }
-    </style>
   </head>
   <body>
     <link rel="stylesheet" href="./style.css" />
@@ -83,242 +74,228 @@
       <link href="./index.css" rel="stylesheet" />
 
       <div class="home-container1">
-        <main-navbar-wrapper class="main-navbar-wrapper">
-          <!--MainNavbar component-->
-          <header class="main-navbar-container1">
-            <header
-              data-thq="thq-navbar"
-              class="main-navbar-navbar-interactive"
-            >
+        <nav-wrapper class="nav-wrapper" rootclassname="navundefined">
+          <!--Nav component-->
+          <header class="nav-container1 navroot-class-name">
+            <header data-thq="thq-navbar" class="nav-navbar-interactive">
               <img
-                alt="logo"
                 src="public/rioniyoexim.svg"
-                class="main-navbar-image1"
+                alt="RioNiyo EXIM Logo"
+                class="nav-image1"
               />
-              <div data-thq="thq-navbar-nav" class="main-navbar-desktop-menu">
-                <nav class="main-navbar-links1">
-                  <span class="thq-body-small thq-link">Home</span>
-                  <a href="/about-us.html" class="thq-body-small thq-link">
+              <div data-thq="thq-navbar-nav" class="nav-desktop-menu">
+                <nav class="nav-links1">
+                  <a
+                    href="index.html"
+                    class="nav-link11 thq-link thq-body-small"
+                  >
+                    Home
+                  </a>
+                  <a
+                    href="about-us.html"
+                    class="nav-link21 thq-link thq-body-small"
+                  >
                     About Us
                   </a>
-                  <div class="main-navbar-container2">
-                    <div class="main-navbar-link4-dropdown-trigger">
-                      <span class="thq-body-small thq-link">Products</span>
-                      <div class="main-navbar-icon-container1">
-                        <div class="main-navbar-container3">
-                          <svg
-                            viewBox="0 0 1024 1024"
-                            class="main-navbar-icon10"
-                          >
+                  <a
+                    href="certificates.html"
+                    class="nav-link31 thq-link thq-body-small"
+                  >
+                    Certificates
+                  </a>
+                  <a
+                    href="contact-us.html"
+                    class="nav-link32 thq-link thq-body-small"
+                  >
+                    Contact Us
+                  </a>
+                  <div class="nav-container2">
+                    <div class="nav-link4-dropdown-trigger">
+                      <span class="thq-link thq-body-small">Products</span>
+                      <div class="nav-icon-container1">
+                        <div class="nav-container3">
+                          <svg viewBox="0 0 1024 1024" class="nav-icon10">
                             <path d="M298 426h428l-214 214z"></path>
                           </svg>
                         </div>
-                        <div class="main-navbar-container4">
-                          <svg
-                            viewBox="0 0 1024 1024"
-                            class="main-navbar-icon12"
-                          >
+                        <div class="nav-container4">
+                          <svg viewBox="0 0 1024 1024" class="nav-icon12">
                             <path d="M426 726v-428l214 214z"></path>
                           </svg>
                         </div>
                       </div>
                     </div>
-                    <div class="main-navbar-container5 thq-box-shadow">
-                      <div class="main-navbar-menu-item1">
-                        <div class="main-navbar-content1">
+                    <div class="nav-container5 thq-box-shadow">
+                      <div class="nav-menu-item1">
+                        <div class="nav-content1">
                           <a
                             href="https://www.teleporthq.io"
-                            class="main-navbar-page11 thq-body-large"
-                          >
-                            <fragment class="home-fragment11">
-                              <span class="home-text11">Page One</span>
-                            </fragment>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="main-navbar-menu-item2">
-                        <div class="main-navbar-content2">
-                          <a
-                            href="https://www.teleporthq.io"
-                            class="main-navbar-page21 thq-body-large"
-                          >
-                            <fragment class="home-fragment12">
-                              <span class="home-text12">Page Two</span>
-                            </fragment>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="main-navbar-menu-item3">
-                        <div class="main-navbar-content3">
-                          <a
-                            href="https://www.teleporthq.io"
-                            class="main-navbar-page31 thq-body-large"
+                            class="nav-page11 thq-body-large"
                           >
                             <fragment class="home-fragment13">
-                              <span class="home-text13">Page Three</span>
+                              <span class="home-text13">Page One</span>
                             </fragment>
                           </a>
                         </div>
                       </div>
-                      <div class="main-navbar-menu-item4">
-                        <div class="main-navbar-content4">
+                      <div class="nav-menu-item2">
+                        <div class="nav-content2">
                           <a
                             href="https://www.teleporthq.io"
-                            class="main-navbar-page41 thq-body-large"
+                            class="nav-page21 thq-body-large"
                           >
-                            <fragment class="home-fragment14">
-                              <span class="home-text14">Page Four</span>
+                            <fragment class="home-fragment10">
+                              <span class="home-text10">Page Two</span>
+                            </fragment>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="nav-menu-item3">
+                        <div class="nav-content3">
+                          <a
+                            href="https://www.teleporthq.io"
+                            class="nav-page31 thq-body-large"
+                          >
+                            <fragment class="home-fragment12">
+                              <span class="home-text12">Page Three</span>
+                            </fragment>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="nav-menu-item4">
+                        <div class="nav-content4">
+                          <a
+                            href="https://www.teleporthq.io"
+                            class="nav-page41 thq-body-large"
+                          >
+                            <fragment class="home-fragment11">
+                              <span class="home-text11">Page Four</span>
                             </fragment>
                           </a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <a
-                    href="certificates.html"
-                    class="main-navbar-link31 thq-body-small thq-link"
-                  >
-                    Certificates
-                  </a>
-                  <a
-                    href="contact-us.html"
-                    class="main-navbar-link32 thq-body-small thq-link"
-                  >
-                    Contact Us
-                  </a>
                 </nav>
               </div>
-              <div data-thq="thq-burger-menu" class="main-navbar-burger-menu">
-                <svg viewBox="0 0 1024 1024" class="main-navbar-icon14">
+              <div data-thq="thq-burger-menu" class="nav-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="nav-icon14">
                   <path
                     d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
                   ></path>
                 </svg>
               </div>
-              <div data-thq="thq-mobile-menu" class="main-navbar-mobile-menu">
-                <div class="main-navbar-nav">
-                  <div class="main-navbar-top">
+              <div data-thq="thq-mobile-menu" class="nav-mobile-menu">
+                <div class="nav-nav">
+                  <div class="nav-top">
                     <img
-                      alt="logo"
                       src="public/rioniyoexim.svg"
-                      class="main-navbar-logo"
+                      alt="RioNiyo EXIM Logo"
+                      class="nav-logo"
                     />
-                    <div
-                      data-thq="thq-close-menu"
-                      class="main-navbar-close-menu"
-                    >
-                      <svg viewBox="0 0 1024 1024" class="main-navbar-icon16">
+                    <div data-thq="thq-close-menu" class="nav-close-menu">
+                      <svg viewBox="0 0 1024 1024" class="nav-icon16">
                         <path
                           d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                         ></path>
                       </svg>
                     </div>
                   </div>
-                  <nav class="main-navbar-links2">
+                  <nav class="nav-links2">
                     <a
                       href="index.html"
-                      class="main-navbar-link12 thq-body-small thq-link"
+                      class="nav-link12 thq-link thq-body-small"
                     >
                       Home
                     </a>
                     <a
                       href="about-us.html"
-                      class="main-navbar-link22 thq-body-small thq-link"
+                      class="nav-link22 thq-link thq-body-small"
                     >
                       About Us
                     </a>
-                    <div class="main-navbar-link4-accordion">
-                      <div class="main-navbar-trigger">
-                        <span class="thq-body-small thq-link">
-                          <fragment class="home-fragment10">
-                            <span class="home-text10">Products</span>
-                          </fragment>
-                        </span>
-                        <div class="main-navbar-icon-container2">
-                          <div class="main-navbar-container6">
-                            <svg
-                              viewBox="0 0 1024 1024"
-                              class="main-navbar-icon18"
-                            >
+                    <a
+                      href="certificates.html"
+                      class="nav-link33 thq-link thq-body-small"
+                    >
+                      Certificates
+                    </a>
+                    <a
+                      href="contact-us.html"
+                      class="nav-link34 thq-link thq-body-small"
+                    >
+                      Contact Us
+                    </a>
+                    <div class="nav-link4-accordion">
+                      <div class="nav-trigger">
+                        <span class="thq-link thq-body-small">Products</span>
+                        <div class="nav-icon-container2">
+                          <div class="nav-container6">
+                            <svg viewBox="0 0 1024 1024" class="nav-icon18">
                               <path d="M298 426h428l-214 214z"></path>
                             </svg>
                           </div>
-                          <div class="main-navbar-container7">
-                            <svg
-                              viewBox="0 0 1024 1024"
-                              class="main-navbar-icon20"
-                            >
+                          <div class="nav-container7">
+                            <svg viewBox="0 0 1024 1024" class="nav-icon20">
                               <path d="M426 726v-428l214 214z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div class="main-navbar-container8">
-                        <div class="main-navbar-menu-item5">
-                          <div class="main-navbar-content5">
+                      <div class="nav-container8">
+                        <div class="nav-menu-item5">
+                          <div class="nav-content5">
                             <a
                               href="https://www.teleporthq.io"
-                              class="main-navbar-page12 thq-body-large"
-                            >
-                              <fragment class="home-fragment11">
-                                <span class="home-text11">Page One</span>
-                              </fragment>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="main-navbar-menu-item6">
-                          <div class="main-navbar-content6">
-                            <a
-                              href="https://www.teleporthq.io"
-                              class="main-navbar-page22 thq-body-large"
-                            >
-                              <fragment class="home-fragment12">
-                                <span class="home-text12">Page Two</span>
-                              </fragment>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="main-navbar-menu-item7">
-                          <div class="main-navbar-content7">
-                            <a
-                              href="https://www.teleporthq.io"
-                              class="main-navbar-page32 thq-body-large"
+                              class="nav-page12 thq-body-large"
                             >
                               <fragment class="home-fragment13">
-                                <span class="home-text13">Page Three</span>
+                                <span class="home-text13">Page One</span>
                               </fragment>
                             </a>
                           </div>
                         </div>
-                        <div class="main-navbar-menu-item8">
-                          <div class="main-navbar-content8">
+                        <div class="nav-menu-item6">
+                          <div class="nav-content6">
                             <a
                               href="https://www.teleporthq.io"
-                              class="main-navbar-page42 thq-body-large"
+                              class="nav-page22 thq-body-large"
                             >
-                              <fragment class="home-fragment14">
-                                <span class="home-text14">Page Four</span>
+                              <fragment class="home-fragment10">
+                                <span class="home-text10">Page Two</span>
+                              </fragment>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="nav-menu-item7">
+                          <div class="nav-content7">
+                            <a
+                              href="https://www.teleporthq.io"
+                              class="nav-page32 thq-body-large"
+                            >
+                              <fragment class="home-fragment12">
+                                <span class="home-text12">Page Three</span>
+                              </fragment>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="nav-menu-item8">
+                          <div class="nav-content8">
+                            <a
+                              href="https://www.teleporthq.io"
+                              class="nav-page42 thq-body-large"
+                            >
+                              <fragment class="home-fragment11">
+                                <span class="home-text11">Page Four</span>
                               </fragment>
                             </a>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <a
-                      href="certificates.html"
-                      class="main-navbar-link33 thq-body-small thq-link"
-                    >
-                      Certificates
-                    </a>
-                    <a
-                      href="contact-us.html"
-                      class="main-navbar-link34 thq-body-small thq-link"
-                    >
-                      Contact Us
-                    </a>
                   </nav>
                 </div>
-                <div class="main-navbar-icon-group">
+                <div class="nav-icon-group">
                   <svg
                     viewBox="0 0 950.8571428571428 1024"
                     class="thq-icon-x-small"
@@ -328,14 +305,14 @@
                     ></path></svg
                   ><svg
                     viewBox="0 0 877.7142857142857 1024"
-                    class="main-navbar-icon24 thq-icon-x-small"
+                    class="nav-icon24 thq-icon-x-small"
                   >
                     <path
                       d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
                     ></path></svg
                   ><svg
                     viewBox="0 0 602.2582857142856 1024"
-                    class="main-navbar-icon26 thq-icon-x-small"
+                    class="nav-icon26 thq-icon-x-small"
                   >
                     <path
                       d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
@@ -344,9 +321,9 @@
                 </div>
               </div>
             </header>
-            <div class="main-navbar-container9"></div>
+            <div class="nav-container9"></div>
           </header>
-        </main-navbar-wrapper>
+        </nav-wrapper>
         <home-banner-comp-wrapper
           class="home-banner-comp-wrapper"
           rootclassname="home-banner-compundefined"
@@ -363,15 +340,15 @@
             <div class="home-banner-comp-max-width thq-section-max-width">
               <div class="home-banner-comp-content">
                 <h1 class="home-banner-comp-text1 thq-heading-1">
-                  <fragment class="home-fragment16">
-                    <span class="home-text16">
+                  <fragment class="home-fragment15">
+                    <span class="home-text15">
                       Global Quality Food Exporter From&nbsp;India
                     </span>
                   </fragment>
                 </h1>
                 <p class="home-banner-comp-text2 thq-body-large">
-                  <fragment class="home-fragment15">
-                    <span class="home-text15">
+                  <fragment class="home-fragment14">
+                    <span class="home-text14">
                       We export fruits and veggies
                     </span>
                   </fragment>
@@ -395,10 +372,10 @@
               </g>
             </svg>
             <div class="home-content">
-              <h1 class="home-text17 thq-heading-1">
+              <h1 class="home-text16 thq-heading-1">
                 RioNiyo - Global Food Importers &amp; Exporters
               </h1>
-              <p class="home-text18 thq-body-large">
+              <p class="home-text17 thq-body-large">
                 “As the ‘land of spices’, India exports tons of various kinds of
                 food. In fact, food export from India is a major source of
                 revenue. To help your products reach to even the farthest
@@ -412,179 +389,183 @@
         </div>
         <hr class="home-separator" />
         <div class="home-container3">
-          <hero17-wrapper class="hero17-wrapper">
-            <!--Hero17 component-->
-            <div class="hero17-header78">
+          <home-page-image-slider-wrapper
+            class="home-page-image-slider-wrapper"
+          >
+            <!--HomePageImageSlider component-->
+            <div class="home-page-image-slider-header78">
               <div
-                class="hero17-column thq-section-padding thq-section-max-width"
+                class="home-page-image-slider-column thq-section-padding thq-section-max-width"
               >
-                <div class="hero17-content1">
-                  <h1 class="hero17-text1 thq-heading-1">
-                    <fragment class="home-fragment19">
-                      <span class="home-text21">
+                <div class="home-page-image-slider-content1">
+                  <h1 class="home-page-image-slider-text1 thq-heading-1">
+                    <fragment class="home-fragment18">
+                      <span class="home-text20">
                         Explore Our Product Gallary
                       </span>
                     </fragment>
                   </h1>
-                  <p class="hero17-text2 thq-body-large">
-                    <fragment class="home-fragment18">
-                      <span class="home-text20">
+                  <p class="home-page-image-slider-text2 thq-body-large">
+                    <fragment class="home-fragment17">
+                      <span class="home-text19">
                         Your trusted partner for sourcing high-quality fruits,
                         vegetables, and spices from India.
                       </span>
                     </fragment>
                   </p>
                 </div>
-                <div class="hero17-actions">
-                  <button class="thq-button-filled hero17-button">
-                    <span class="thq-body-small hero17-text3">
-                      <fragment class="home-fragment17">
-                        <span class="home-text19">Explore Our Products</span>
+                <div class="home-page-image-slider-actions">
+                  <button
+                    class="thq-button-filled home-page-image-slider-button"
+                  >
+                    <span class="thq-body-small home-page-image-slider-text3">
+                      <fragment class="home-fragment16">
+                        <span class="home-text18">Explore Our Products</span>
                       </fragment>
                     </span>
                   </button>
                 </div>
               </div>
-              <div class="hero17-content2">
+              <div class="home-page-image-slider-content2">
                 <div
-                  class="hero17-row-container1 thq-animated-group-container-horizontal thq-mask-image-horizontal"
+                  class="home-page-image-slider-row-container1 thq-animated-group-container-horizontal thq-mask-image-horizontal"
                 >
                   <div class="thq-animated-group-horizontal">
                     <img
                       alt="Fresh fruits and vegetables"
                       src="https://images.unsplash.com/photo-1540420828642-fca2c5c18abe?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMHw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image10 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image10 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Spices from India"
                       src="https://images.unsplash.com/photo-1619073181529-93e12b4f9a29?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image11 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image11 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Quality produce"
                       src="https://images.unsplash.com/photo-1720289024474-946b6feabfcb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image12 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image12 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Global food export"
                       src="https://images.unsplash.com/photo-1583663848850-46af132dc08e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image13 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image13 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Farm-fresh products"
                       src="https://images.unsplash.com/photo-1619073181529-93e12b4f9a29?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image14 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image14 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Exporting excellence"
                       src="https://images.unsplash.com/photo-1540420828642-fca2c5c18abe?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMHw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image15 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image15 thq-img-scale thq-img-ratio-1-1"
                     />
                   </div>
                   <div class="thq-animated-group-horizontal">
                     <img
                       alt="Fresh fruits and vegetables"
                       src="https://images.unsplash.com/photo-1540420828642-fca2c5c18abe?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMHw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image16 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image16 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Spices from India"
                       src="https://images.unsplash.com/photo-1619073181529-93e12b4f9a29?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image17 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image17 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Quality produce"
                       src="https://images.unsplash.com/photo-1720289024474-946b6feabfcb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image18 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image18 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Global food export"
                       src="https://images.unsplash.com/photo-1583663848850-46af132dc08e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image19 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image19 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Farm-fresh products"
                       src="https://images.unsplash.com/photo-1619073181529-93e12b4f9a29?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image20 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image20 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Hero Image"
                       src="https://images.unsplash.com/photo-1534312527009-56c7016453e6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIxfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
-                      class="hero17-placeholder-image21 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image21 thq-img-scale thq-img-ratio-1-1"
                     />
                   </div>
                 </div>
                 <div
-                  class="hero17-row-container2 thq-animated-group-container-horizontal thq-mask-image-horizontal"
+                  class="home-page-image-slider-row-container2 thq-animated-group-container-horizontal thq-mask-image-horizontal"
                 >
                   <div class="thq-animated-group-horizontal-reverse">
                     <img
                       alt="Connecting suppliers and buyers"
                       src="https://images.unsplash.com/photo-1752584157962-8821ce8b732b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image22 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image22 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="International quality standards"
                       src="https://images.unsplash.com/photo-1720289024474-946b6feabfcb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image23 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image23 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Premium food exports"
                       src="https://images.unsplash.com/photo-1649562212286-dfb64636ba91?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMnw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image24 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image24 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Exotic Indian spices"
                       src="https://images.unsplash.com/photo-1752584157962-8821ce8b732b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image25 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image25 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Delivering freshness worldwide"
                       src="https://images.unsplash.com/photo-1583663848850-46af132dc08e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image26 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image26 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Your reliable food export partner"
                       src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMHw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image27 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image27 thq-img-scale thq-img-ratio-1-1"
                     />
                   </div>
                   <div class="thq-animated-group-horizontal-reverse">
                     <img
                       alt="Connecting suppliers and buyers"
                       src="https://images.unsplash.com/photo-1752584157962-8821ce8b732b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image28 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image28 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="International quality standards"
                       src="https://images.unsplash.com/photo-1720289024474-946b6feabfcb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image29 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image29 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Premium food exports"
                       src="https://images.unsplash.com/photo-1649562212286-dfb64636ba91?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMnw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image30 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image30 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Exotic Indian spices"
                       src="https://images.unsplash.com/photo-1752584157962-8821ce8b732b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image31 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image31 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Delivering freshness worldwide"
                       src="https://images.unsplash.com/photo-1583663848850-46af132dc08e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-                      class="hero17-placeholder-image32 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image32 thq-img-scale thq-img-ratio-1-1"
                     />
                     <img
                       alt="Hero Image"
                       src="https://images.unsplash.com/photo-1568214379698-8aeb8c6c6ac8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxncmFmaWN8ZW58MHx8fHwxNzE1Nzk0OTk5fDA&amp;ixlib=rb-4.0.3&amp;w=1500"
-                      class="hero17-placeholder-image33 thq-img-scale thq-img-ratio-1-1"
+                      class="home-page-image-slider-placeholder-image33 thq-img-scale thq-img-ratio-1-1"
                     />
                   </div>
                 </div>
               </div>
               <div>
-                <div class="hero17-container2">
+                <div class="home-page-image-slider-container2">
                   <style>
                     @keyframes scroll-x {
                       from {
@@ -607,7 +588,7 @@
                 </div>
               </div>
             </div>
-          </hero17-wrapper>
+          </home-page-image-slider-wrapper>
         </div>
         <div class="home-container4">
           <steps2-wrapper class="steps2-wrapper">
@@ -617,8 +598,8 @@
                 <div class="steps2-container2 thq-grid-2">
                   <div class="steps2-section-header">
                     <span class="steps2-text10">
-                      <fragment class="home-fragment20">
-                        <span class="home-text22">WHY CHOOSE US?</span>
+                      <fragment class="home-fragment19">
+                        <span class="home-text21">WHY CHOOSE US?</span>
                       </fragment>
                     </span>
                     <p class="thq-body-large steps2-text11">
@@ -640,15 +621,15 @@
                   <div class="steps2-container3">
                     <div class="steps2-container4 thq-card">
                       <h2 class="steps2-text13 thq-heading-2">
-                        <fragment class="home-fragment21">
-                          <span class="home-text23">
+                        <fragment class="home-fragment20">
+                          <span class="home-text22">
                             Get Buyers for Your Food Products
                           </span>
                         </fragment>
                       </h2>
                       <span class="steps2-text14 thq-body-small">
-                        <fragment class="home-fragment25">
-                          <span class="home-text27">
+                        <fragment class="home-fragment24">
+                          <span class="home-text26">
                             No matter the type of food or spice you plan on
                             exporting, we will ensure that you get genuine
                             buyers for your products who meet your expectations.
@@ -659,13 +640,13 @@
                     </div>
                     <div class="steps2-container5 thq-card">
                       <h2 class="steps2-text16 thq-heading-2">
-                        <fragment class="home-fragment22">
-                          <span class="home-text24">Select Products</span>
+                        <fragment class="home-fragment21">
+                          <span class="home-text23">Select Products</span>
                         </fragment>
                       </h2>
                       <span class="steps2-text17 thq-body-small">
-                        <fragment class="home-fragment26">
-                          <span class="home-text28">
+                        <fragment class="home-fragment25">
+                          <span class="home-text27">
                             Choose from a wide range of high-quality fruits,
                             vegetables, and spices offered by RioNiyo EXIM.
                           </span>
@@ -675,13 +656,13 @@
                     </div>
                     <div class="steps2-container6 thq-card">
                       <h2 class="steps2-text19 thq-heading-2">
-                        <fragment class="home-fragment23">
-                          <span class="home-text25">Quality Check</span>
+                        <fragment class="home-fragment22">
+                          <span class="home-text24">Quality Check</span>
                         </fragment>
                       </h2>
                       <span class="steps2-text20 thq-body-small">
-                        <fragment class="home-fragment27">
-                          <span class="home-text29">
+                        <fragment class="home-fragment26">
+                          <span class="home-text28">
                             RioNiyo EXIM ensures that all products meet
                             international quality standards before export.
                           </span>
@@ -691,13 +672,13 @@
                     </div>
                     <div class="steps2-container7 thq-card">
                       <h2 class="steps2-text22 thq-heading-2">
-                        <fragment class="home-fragment24">
-                          <span class="home-text26">Export and Delivery</span>
+                        <fragment class="home-fragment23">
+                          <span class="home-text25">Export and Delivery</span>
                         </fragment>
                       </h2>
                       <span class="steps2-text23 thq-body-small">
-                        <fragment class="home-fragment28">
-                          <span class="home-text30">
+                        <fragment class="home-fragment27">
+                          <span class="home-text29">
                             Once quality checks are completed, RioNiyo EXIM
                             handles the export process and ensures timely
                             delivery to your location.
@@ -721,20 +702,20 @@
               <div class="thq-flex-column contact-us-content">
                 <div class="contact-us-section-title">
                   <span class="thq-body-small contact-us-text10">
-                    <fragment class="home-fragment34">
-                      <span class="home-text36">
+                    <fragment class="home-fragment33">
+                      <span class="home-text35">
                         Connecting you with the world, one teleport at a time
                       </span>
                     </fragment>
                   </span>
                   <h2 class="thq-heading-2 contact-us-text11">
-                    <fragment class="home-fragment35">
-                      <span class="home-text37">Contact us</span>
+                    <fragment class="home-fragment34">
+                      <span class="home-text36">Contact us</span>
                     </fragment>
                   </h2>
                   <span class="thq-body-large contact-us-text12">
-                    <fragment class="home-fragment33">
-                      <span class="home-text35">
+                    <fragment class="home-fragment32">
+                      <span class="home-text34">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       </span>
                     </fragment>
@@ -748,8 +729,8 @@
                       ></path>
                     </svg>
                     <span class="thq-body-small contact-us-email">
-                      <fragment class="home-fragment29">
-                        <span class="home-text31">rioniyoexim@gmail.com</span>
+                      <fragment class="home-fragment28">
+                        <span class="home-text30">rioniyoexim@gmail.com</span>
                       </fragment>
                     </span>
                   </div>
@@ -760,8 +741,8 @@
                       ></path>
                     </svg>
                     <span class="thq-body-small contact-us-phone">
-                      <fragment class="home-fragment30">
-                        <span class="home-text32">+91 9327360028</span>
+                      <fragment class="home-fragment29">
+                        <span class="home-text31">+91 9327360028</span>
                       </fragment>
                     </span>
                   </div>
@@ -772,8 +753,8 @@
                       ></path>
                     </svg>
                     <span class="thq-body-small contact-us-address">
-                      <fragment class="home-fragment32">
-                        <span class="home-text34">789 Test St, Bucharest</span>
+                      <fragment class="home-fragment31">
+                        <span class="home-text33">789 Test St, Bucharest</span>
                       </fragment>
                     </span>
                   </div>
@@ -839,8 +820,8 @@
                 </div>
                 <button type="submit" class="thq-button-filled">
                   <span class="thq-body-small contact-us-action1">
-                    <fragment class="home-fragment31">
-                      <span class="home-text33">Submit</span>
+                    <fragment class="home-fragment30">
+                      <span class="home-text32">Submit</span>
                     </fragment>
                   </span>
                 </button>
@@ -848,82 +829,35 @@
             </div>
           </div>
         </contact-us-wrapper>
-        <cta2611-wrapper class="cta2611-wrapper">
-          <!--CTA2611 component-->
-          <div class="thq-section-padding">
-            <div class="thq-section-max-width">
-              <div class="cta2611-accent2-bg">
-                <div class="cta2611-accent1-bg">
-                  <div class="cta2611-container2">
-                    <div class="cta2611-content">
-                      <span class="thq-heading-2">
-                        <fragment class="home-fragment38">
-                          <span class="home-text40">
-                            Ready to taste the flavors of India?
-                          </span>
-                        </fragment>
-                      </span>
-                      <p class="thq-body-large">
-                        <fragment class="home-fragment37">
-                          <span class="home-text39">
-                            Explore our wide range of premium quality fruits,
-                            vegetables, and spices.
-                          </span>
-                        </fragment>
-                      </p>
-                    </div>
-                    <div class="cta2611-actions">
-                      <button
-                        type="button"
-                        class="thq-button-filled cta2611-button"
-                      >
-                        <span>
-                          <fragment class="home-fragment36">
-                            <span class="home-text38">
-                              Contact us now to place your order!
-                            </span>
-                          </fragment>
-                        </span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </cta2611-wrapper>
-        <footer13-wrapper
-          class="footer13-wrapper"
-          rootclassname="footer13undefined"
-        >
-          <!--Footer13 component-->
+        <footer-wrapper class="footer-wrapper" rootclassname="footerundefined">
+          <!--Footer component-->
           <footer
-            class="footer13-container thq-section-padding footer13root-class-name"
+            class="footer-container thq-section-padding footerroot-class-name"
           >
-            <div class="footer13-max-width thq-section-max-width">
+            <div class="footer-max-width thq-section-max-width">
               <div class="thq-divider-horizontal"></div>
-              <div class="footer13-content">
+              <div class="footer-content">
                 <img
                   alt="logo"
                   src="public/rioniyoexim.svg"
-                  class="footer13-image1"
+                  class="footer-image1"
                 />
-                <div class="footer13-links thq-grid-5">
-                  <div class="footer13-column1">
-                    <strong class="thq-body-large footer13-column1-title">
-                      <fragment class="home-fragment69">
-                        <span class="home-text71">Column One</span>
+                <div class="footer-links thq-grid-5">
+                  <div class="footer-column1">
+                    <strong class="thq-body-large footer-column1-title">
+                      <fragment class="home-fragment65">
+                        <span class="home-text67">Column One</span>
                       </fragment>
                     </strong>
-                    <div class="footer13-footer-links1">
+                    <div class="footer-footer-links1">
                       <a
                         href="https://example.com"
                         target="_blank"
                         rel="noreferrer noopener"
                         class="thq-body-small"
                       >
-                        <fragment class="home-fragment39">
-                          <span class="home-text41">Link 1</span>
+                        <fragment class="home-fragment35">
+                          <span class="home-text37">Link 1</span>
                         </fragment>
                       </a>
                       <a
@@ -932,8 +866,57 @@
                         rel="noreferrer noopener"
                         class="thq-body-small"
                       >
+                        <fragment class="home-fragment36">
+                          <span class="home-text38">Link 2</span>
+                        </fragment>
+                      </a>
+                      <a
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="thq-body-small"
+                      >
+                        <fragment class="home-fragment37">
+                          <span class="home-text39">Link 3</span>
+                        </fragment>
+                      </a>
+                      <a
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="thq-body-small"
+                      >
+                        <fragment class="home-fragment38">
+                          <span class="home-text40">Link 4</span>
+                        </fragment>
+                      </a>
+                      <a
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="thq-body-small"
+                      >
+                        <fragment class="home-fragment39">
+                          <span class="home-text41">Link 5</span>
+                        </fragment>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-column2">
+                    <strong class="thq-body-large footer-column2-title">
+                      <fragment class="home-fragment66">
+                        <span class="home-text68">Column Two</span>
+                      </fragment>
+                    </strong>
+                    <div class="footer-footer-links2">
+                      <a
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="thq-body-small"
+                      >
                         <fragment class="home-fragment40">
-                          <span class="home-text42">Link 2</span>
+                          <span class="home-text42">Link 6</span>
                         </fragment>
                       </a>
                       <a
@@ -943,7 +926,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment41">
-                          <span class="home-text43">Link 3</span>
+                          <span class="home-text43">Link 7</span>
                         </fragment>
                       </a>
                       <a
@@ -953,7 +936,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment42">
-                          <span class="home-text44">Link 4</span>
+                          <span class="home-text44">Link 8</span>
                         </fragment>
                       </a>
                       <a
@@ -963,18 +946,9 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment43">
-                          <span class="home-text45">Link 5</span>
+                          <span class="home-text45">Link 9</span>
                         </fragment>
                       </a>
-                    </div>
-                  </div>
-                  <div class="footer13-column2">
-                    <strong class="thq-body-large footer13-column2-title">
-                      <fragment class="home-fragment70">
-                        <span class="home-text72">Column Two</span>
-                      </fragment>
-                    </strong>
-                    <div class="footer13-footer-links2">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -982,9 +956,18 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment44">
-                          <span class="home-text46">Link 6</span>
+                          <span class="home-text46">Link 10</span>
                         </fragment>
                       </a>
+                    </div>
+                  </div>
+                  <div class="footer-column3">
+                    <strong class="thq-body-large footer-column3-title">
+                      <fragment class="home-fragment67">
+                        <span class="home-text69">Column Three</span>
+                      </fragment>
+                    </strong>
+                    <div class="footer-footer-links3">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -992,7 +975,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment45">
-                          <span class="home-text47">Link 7</span>
+                          <span class="home-text47">Link 11</span>
                         </fragment>
                       </a>
                       <a
@@ -1002,7 +985,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment46">
-                          <span class="home-text48">Link 8</span>
+                          <span class="home-text48">Link 12</span>
                         </fragment>
                       </a>
                       <a
@@ -1012,7 +995,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment47">
-                          <span class="home-text49">Link 9</span>
+                          <span class="home-text49">Link 13</span>
                         </fragment>
                       </a>
                       <a
@@ -1022,18 +1005,9 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment48">
-                          <span class="home-text50">Link 10</span>
+                          <span class="home-text50">Link 14</span>
                         </fragment>
                       </a>
-                    </div>
-                  </div>
-                  <div class="footer13-column3">
-                    <strong class="thq-body-large footer13-column3-title">
-                      <fragment class="home-fragment71">
-                        <span class="home-text73">Column Three</span>
-                      </fragment>
-                    </strong>
-                    <div class="footer13-footer-links3">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -1041,9 +1015,18 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment49">
-                          <span class="home-text51">Link 11</span>
+                          <span class="home-text51">Link 15</span>
                         </fragment>
                       </a>
+                    </div>
+                  </div>
+                  <div class="footer-column4">
+                    <strong class="thq-body-large footer-column4-title">
+                      <fragment class="home-fragment68">
+                        <span class="home-text70">Column Four</span>
+                      </fragment>
+                    </strong>
+                    <div class="footer-footer-links4">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -1051,7 +1034,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment50">
-                          <span class="home-text52">Link 12</span>
+                          <span class="home-text52">Link 16</span>
                         </fragment>
                       </a>
                       <a
@@ -1061,7 +1044,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment51">
-                          <span class="home-text53">Link 13</span>
+                          <span class="home-text53">Link 17</span>
                         </fragment>
                       </a>
                       <a
@@ -1071,7 +1054,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment52">
-                          <span class="home-text54">Link 14</span>
+                          <span class="home-text54">Link 18</span>
                         </fragment>
                       </a>
                       <a
@@ -1081,18 +1064,9 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment53">
-                          <span class="home-text55">Link 15</span>
+                          <span class="home-text55">Link 19</span>
                         </fragment>
                       </a>
-                    </div>
-                  </div>
-                  <div class="footer13-column4">
-                    <strong class="thq-body-large footer13-column4-title">
-                      <fragment class="home-fragment72">
-                        <span class="home-text74">Column Four</span>
-                      </fragment>
-                    </strong>
-                    <div class="footer13-footer-links4">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -1100,9 +1074,18 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment54">
-                          <span class="home-text56">Link 16</span>
+                          <span class="home-text56">Link 20</span>
                         </fragment>
                       </a>
+                    </div>
+                  </div>
+                  <div class="footer-column5">
+                    <strong class="thq-body-large footer-column5-title">
+                      <fragment class="home-fragment69">
+                        <span class="home-text71">Column Five</span>
+                      </fragment>
+                    </strong>
+                    <div class="footer-footer-links5">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -1110,7 +1093,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment55">
-                          <span class="home-text57">Link 17</span>
+                          <span class="home-text57">Link 21</span>
                         </fragment>
                       </a>
                       <a
@@ -1120,7 +1103,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment56">
-                          <span class="home-text58">Link 18</span>
+                          <span class="home-text58">Link 22</span>
                         </fragment>
                       </a>
                       <a
@@ -1130,7 +1113,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment57">
-                          <span class="home-text59">Link 19</span>
+                          <span class="home-text59">Link 23</span>
                         </fragment>
                       </a>
                       <a
@@ -1140,18 +1123,9 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment58">
-                          <span class="home-text60">Link 20</span>
+                          <span class="home-text60">Link 24</span>
                         </fragment>
                       </a>
-                    </div>
-                  </div>
-                  <div class="footer13-column5">
-                    <strong class="thq-body-large footer13-column5-title">
-                      <fragment class="home-fragment73">
-                        <span class="home-text75">Column Five</span>
-                      </fragment>
-                    </strong>
-                    <div class="footer13-footer-links5">
                       <a
                         href="https://example.com"
                         target="_blank"
@@ -1159,47 +1133,7 @@
                         class="thq-body-small"
                       >
                         <fragment class="home-fragment59">
-                          <span class="home-text61">Link 21</span>
-                        </fragment>
-                      </a>
-                      <a
-                        href="https://example.com"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        class="thq-body-small"
-                      >
-                        <fragment class="home-fragment60">
-                          <span class="home-text62">Link 22</span>
-                        </fragment>
-                      </a>
-                      <a
-                        href="https://example.com"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        class="thq-body-small"
-                      >
-                        <fragment class="home-fragment61">
-                          <span class="home-text63">Link 23</span>
-                        </fragment>
-                      </a>
-                      <a
-                        href="https://example.com"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        class="thq-body-small"
-                      >
-                        <fragment class="home-fragment62">
-                          <span class="home-text64">Link 24</span>
-                        </fragment>
-                      </a>
-                      <a
-                        href="https://example.com"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        class="thq-body-small"
-                      >
-                        <fragment class="home-fragment63">
-                          <span class="home-text65">Link 25</span>
+                          <span class="home-text61">Link 25</span>
                         </fragment>
                       </a>
                     </div>
@@ -1207,27 +1141,27 @@
                 </div>
               </div>
               <div class="thq-divider-horizontal"></div>
-              <div class="footer13-credits1">
-                <div class="footer13-row">
-                  <div class="footer13-credits2">
+              <div class="footer-credits1">
+                <div class="footer-row">
+                  <div class="footer-credits2">
                     <span class="thq-body-small">
-                      <fragment class="home-fragment68">
-                        <span class="home-text70">Privacy Policy</span>
+                      <fragment class="home-fragment64">
+                        <span class="home-text66">Privacy Policy</span>
                       </fragment>
                     </span>
                     <span class="thq-body-small">
-                      <fragment class="home-fragment65">
-                        <span class="home-text67">Terms of Service</span>
+                      <fragment class="home-fragment61">
+                        <span class="home-text63">Terms of Service</span>
                       </fragment>
                     </span>
                     <span class="thq-body-small">
-                      <fragment class="home-fragment67">
-                        <span class="home-text69">Cookies Settings</span>
+                      <fragment class="home-fragment63">
+                        <span class="home-text65">Cookies Settings</span>
                       </fragment>
                     </span>
                   </div>
                 </div>
-                <div class="footer13-social-links">
+                <div class="footer-social-links">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     class="thq-icon-small"
@@ -1262,16 +1196,16 @@
                     ></path>
                   </svg>
                 </div>
-                <span class="footer13-content31 thq-body-small">
-                  <fragment class="home-fragment64">
-                    <span class="home-text66">
+                <span class="footer-content31 thq-body-small">
+                  <fragment class="home-fragment60">
+                    <span class="home-text62">
                       © 2025 RioNiyo EXIM. All Rights Reserved
                     </span>
                   </fragment>
                 </span>
-                <span class="footer13-content32 thq-body-small">
-                  <fragment class="home-fragment66">
-                    <span class="home-text68">
+                <span class="footer-content32 thq-body-small">
+                  <fragment class="home-fragment62">
+                    <span class="home-text64">
                       Website Design by Aakash Patel
                     </span>
                   </fragment>
@@ -1279,7 +1213,7 @@
               </div>
             </div>
           </footer>
-        </footer13-wrapper>
+        </footer-wrapper>
       </div>
     </div>
     <script
